@@ -24,6 +24,7 @@ public class ConsumerController {
         stringBuilder.append(helloService.hello("DIDI")).append("\n");
         stringBuilder.append(helloService.hello("DIDI",13)).append("\n");
         stringBuilder.append(helloService.hello(new User(12,"DIDI")));
+        stringBuilder.append("sfdsdf");
         return stringBuilder.toString();
 
     }
